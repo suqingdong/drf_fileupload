@@ -33,7 +33,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ### API
-![](gallery/api.png)
+![]([gallery/api.png](https://suqingdong.github.io/drf_fileupload/gallery/api.png))
 
 ### Demo
 ```
