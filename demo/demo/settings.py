@@ -140,7 +140,7 @@ REST_FRAMEWORK = {
 }
 
 FILE_UPLOAD_TO = 'upload/%Y/%m/%d'  # support strftime format
-MAX_FILE_UPLOAD = '10M'             # limit max file size
+FILE_UPLOAD_MAX_SIZE = '10M'             # limit max file size
 
 REST_USE_JWT = False
 if REST_USE_JWT:

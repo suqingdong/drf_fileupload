@@ -16,7 +16,7 @@ INSTALL_APPS += [
 MEDIA_ROOT = 'data/'  # default: /
 
 FILE_UPLOAD_TO = 'upload/%Y/%m/%d'   # support strftime format, default: MEDIA_ROOT
-MAX_FILE_UPLOAD = '10M'              # limit max file size, default: None
+FILE_UPLOAD_MAX_SIZE = '10M'              # limit max file size, default: None
 ```
 
 - edit `project/urls.py`

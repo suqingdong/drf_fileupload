@@ -15,7 +15,7 @@ class FileSerializer(serializers.ModelSerializer):
 
     def validate_file(self, data):
 
-        max_size = settings.MAX_FILE_UPLOAD if hasattr(settings, 'MAX_FILE_UPLOAD') else None
+        max_size = settings.FILE_UPLOAD_MAX_SIZE if hasattr(settings, 'FILE_UPLOAD_MAX_SIZE') else None
         if max_size and data.size > humanfriendly.parse_size(str(max_size)):
             raise serializers.ValidationError(f'file size limit {max_size}')
 
