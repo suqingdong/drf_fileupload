@@ -2,7 +2,7 @@
 
 ### Installation
 ```bash
-python3 -m pip install drf_fileupload
+python3 -m pip install drf-fileupload-api
 ```
 
 ### Usage
@@ -34,7 +34,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ### API
-![](https://suqingdong.github.io/drf_fileupload/gallery/api.png))
+![](https://suqingdong.github.io/drf_fileupload/gallery/api.png)
 
 ### Demo
 ```bash
