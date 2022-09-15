@@ -1,3 +1,6 @@
+![PyPI](https://img.shields.io/pypi/v/drf_fileupload_api)
+![GitHub last commit](https://img.shields.io/github/last-commit/suqingdong/drf_fileupload)
+
 # A file upload application for DjangoRestFramework
 
 ### Installation
