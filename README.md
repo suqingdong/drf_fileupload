@@ -5,9 +5,9 @@
 python3 -m pip install drf_fileupload
 ```
 
-
 ### Usage
-1. edit `project/settings.py`
+- edit `project/settings.py`
+
 ```python
 INSTALL_APPS += [
     'drf_fileupload',
@@ -19,7 +19,8 @@ FILE_UPLOAD_TO = 'upload/%Y/%m/%d'   # support strftime format, default: MEDIA_R
 MAX_FILE_UPLOAD = '10M'              # limit max file size, default: None
 ```
 
-2. edit `project/urls.py`
+- edit `project/urls.py`
+
 ```python
 from django.conf import settings
 from django.conf.urls.static import static
@@ -33,10 +34,10 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ### API
-![]([gallery/api.png](https://suqingdong.github.io/drf_fileupload/gallery/api.png))
+![](https://suqingdong.github.io/drf_fileupload/gallery/api.png))
 
 ### Demo
-```
+```bash
 git clone https://github.com/suqingdong/drf_fileupload
 
 cd demo
